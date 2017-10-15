@@ -9,7 +9,7 @@
     "built:dev": "webpack",
     "built:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "script": "node server/server.js",
+    "start": "node server/server.js",
     "heroku-postbuilt": "yarn run built:prod"
   },
   "dependencies": {
